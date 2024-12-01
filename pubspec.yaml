@@ -1,0 +1,54 @@
+name: swimmy
+description: "Swimmy - Sport Swim Assistant"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  apphud: ^2.6.0
+  expandable_page_view: ^1.0.17
+  fl_chart: ^0.69.2
+  flutter:
+    sdk: flutter
+  flutter_image_compress: ^2.3.0
+  flutter_local_notifications: ^18.0.1
+  flutter_svg: ^2.0.15
+  flutter_timezone: ^3.0.1
+  image: ^4.3.0
+  image_picker: ^1.1.2
+  in_app_purchase: ^3.2.0
+  intl: ^0.19.0
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.3
+  table_calendar: ^3.1.2
+  timezone: ^0.10.0
+  uuid: ^4.5.1
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/images/content/techniques/
+     - assets/images/content/nutrition/
+     - assets/images/content/trauma/
+     - assets/icons/
+     - assets/pictures/
+  
+  fonts:
+    - family: Karla
+      fonts:
+        - asset: assets/fonts/karla/karla-regular.ttf
+          weight: 400
+        - asset: assets/fonts/karla/karla-medium.ttf
+          weight: 500
+        - asset: assets/fonts/karla/karla-bold.ttf
+          weight: 700
