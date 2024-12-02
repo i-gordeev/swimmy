@@ -87,10 +87,6 @@ class _ApplicationState extends State<Application> {
                     isScrollControlled: true,
                     useSafeArea: true,
                     builder: (context) => const PremiumFutures(),
-                    sheetAnimationStyle: AnimationStyle(
-                      duration: const Duration(milliseconds: 600),
-                      curve: Curves.easeInOut,
-                    ),
                   );
                 },
               ),

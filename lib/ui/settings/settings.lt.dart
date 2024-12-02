@@ -160,10 +160,6 @@ class _PremiumButton extends StatelessWidget {
             isScrollControlled: true,
             useSafeArea: true,
             builder: (context) => const PremiumFutures(),
-            sheetAnimationStyle: AnimationStyle(
-              duration: const Duration(milliseconds: 400),
-              curve: Curves.easeInOut,
-            ),
           );
         },
         style: ElevatedButton.styleFrom(foregroundColor: Colors.black, backgroundColor: CustomTheme.accentColor),
